@@ -7,11 +7,15 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "12.6.x"
+    "node": "22.20.0"
   },
   "keywords": [],
-  "author": "Mosh Hamedani",
-  "license": "ISC",
+  "author": {
+    "name": "Zachariah Ayers",
+    "email": "zach@meridianvega.com",
+    "company": "Meridian Vega"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
