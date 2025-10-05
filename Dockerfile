@@ -8,8 +8,8 @@ RUN apk add --no-cache vips vips-dev g++ make python3
 # Copy package files
 COPY package*.json ./
 
-# Install production dependencies and rebuild sharp for Alpine
-RUN npm ci --only=production && \
+# Install dependencies and rebuild sharp for Alpine
+RUN npm ci && \
     npm rebuild sharp
 
 # Copy source code
