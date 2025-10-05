@@ -1,4 +1,5 @@
 {
+  "port": 9000,
   "delay": 1000,
   "maxImageCount": 3
 }
